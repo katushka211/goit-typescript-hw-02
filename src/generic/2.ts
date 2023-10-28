@@ -24,8 +24,3 @@ function compare(top: Pick<AllType, T>, bottom: Pick<AllType, U>): AllType {
 }
 
 export {};
-
-const topObj = { name: "Top", color: "Red" };
-const bottomObj = { position: 1, weight: 100 };
-const result = compare(topObj, bottomObj);
-console.log(result);
